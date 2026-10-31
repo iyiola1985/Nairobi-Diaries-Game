@@ -1,0 +1,94 @@
+{
+  "origin": { "lat": -1.28861, "lon": 36.82306, "name": "KICC" },
+  "note": "Each bbox is a fetch window for a local OpenStreetMap extract. It is not an official neighbourhood boundary. The game reads only the cached JSON files. It does not call Overpass when it starts.",
+  "neighbourhoods": [
+    {
+      "id": "nairobi-cbd",
+      "name": "Nairobi CBD",
+      "file": "cbd-data.json",
+      "status": "extracted",
+      "profile": "cbd",
+      "bbox": { "south": -1.2918, "west": 36.8188, "north": -1.2832, "east": 36.8258 },
+      "near": null,
+      "placementId": "cbd-road-board",
+      "note": "Walkable extract around KICC. Landmark towers are simplified stand-ins."
+    },
+    {
+      "id": "kilimani",
+      "name": "Kilimani",
+      "file": "kilimani-data.json",
+      "status": "extracted",
+      "profile": "residential",
+      "bbox": { "south": -1.302, "west": 36.7736, "north": -1.2848, "east": 36.7925 },
+      "near": { "lat": -1.2925, "lon": 36.7865 },
+      "placementId": null,
+      "note": "Walkable extract from Ngong Road and Adams Arcade north to the Kilimani end of Dennis Pritt Road, including Argwings Kodhek Road, Wood Avenue, Lenana Road, and Kilimani Road."
+    },
+    {
+      "id": "kileleshwa",
+      "name": "Kileleshwa",
+      "file": "kileleshwa-data.json",
+      "status": "catalogued",
+      "profile": "residential",
+      "bbox": { "south": -1.2895, "west": 36.774, "north": -1.2755, "east": 36.792 },
+      "near": { "lat": -1.2835, "lon": 36.7875 },
+      "placementId": null,
+      "note": "Extract window north of Kilimani. Not loaded into the walkable city."
+    },
+    {
+      "id": "hurlingham",
+      "name": "Hurlingham",
+      "file": "hurlingham-data.json",
+      "status": "extracted",
+      "profile": "residential",
+      "bbox": { "south": -1.3022, "west": 36.7916, "north": -1.2832, "east": 36.8265 },
+      "near": { "lat": -1.2948, "lon": 36.7975 },
+      "placementId": null,
+      "note": "Walkable OpenStreetMap streets that join the Kilimani extract to the CBD extract. The window covers Hurlingham, the Upper Hill roads that carry Ngong Road, Denis Pritt Road and Uhuru Highway, and the Haile Selassie roundabout south of the CBD. It is a fetch window, not an official boundary."
+    },
+    {
+      "id": "lavington",
+      "name": "Lavington",
+      "file": "lavington-data.json",
+      "status": "catalogued",
+      "profile": "residential",
+      "bbox": { "south": -1.292, "west": 36.752, "north": -1.268, "east": 36.774 },
+      "near": { "lat": -1.279, "lon": 36.7695 },
+      "placementId": null,
+      "note": "Extract window west of Kilimani. Not loaded into the walkable city."
+    },
+    {
+      "id": "upper-hill",
+      "name": "Upper Hill",
+      "file": "upper-hill-data.json",
+      "status": "catalogued",
+      "profile": "cbd",
+      "bbox": { "south": -1.308, "west": 36.805, "north": -1.292, "east": 36.822 },
+      "near": { "lat": -1.2995, "lon": 36.8135 },
+      "placementId": null,
+      "note": "Extract window south of the CBD. Not loaded into the walkable city."
+    },
+    {
+      "id": "westlands",
+      "name": "Westlands",
+      "file": "westlands-data.json",
+      "status": "catalogued",
+      "profile": "cbd",
+      "bbox": { "south": -1.275, "west": 36.792, "north": -1.255, "east": 36.818 },
+      "near": { "lat": -1.267, "lon": 36.806 },
+      "placementId": null,
+      "note": "Extract window north-west of the CBD. Not loaded into the walkable city."
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "file": "karen-data.json",
+      "status": "catalogued",
+      "profile": "residential",
+      "bbox": { "south": -1.345, "west": 36.68, "north": -1.3, "east": 36.75 },
+      "near": { "lat": -1.319, "lon": 36.715 },
+      "placementId": null,
+      "note": "Large extract window south-west of the city. Not loaded into the walkable city."
+    }
+  ]
+}
